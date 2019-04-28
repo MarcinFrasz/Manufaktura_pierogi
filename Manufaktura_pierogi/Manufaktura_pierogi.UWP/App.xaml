@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Manufaktura_pierogi.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Manufaktura_pierogi.UWP"
+    RequestedTheme="Light">
+
+</Application>
