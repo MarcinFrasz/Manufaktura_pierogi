@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manufaktura_pierogi.Views.Input"
+             Title="Input page">
+    <ContentPage.Content>
+
+          
+        
+        <StackLayout>
+
+            <Button Text="Navigate to Output page" Clicked="Onbtn_Clicked" BackgroundColor="Blue"/>
+            
+            <Label x:Name="Lbl_Date" Text="Data:" />
+            <Entry x:Name="Entry_Data" Placeholder="" />
+            <Label x:Name="Lbl_Ammount" Text="Ilość" />
+            <Entry x:Name="Entry_Ammount" Placeholder="" />
+            <Label x:Name="Lbl_type" Text="Typ:"/>
+            <Picker x:Name="Typ" HorizontalOptions="FillAndExpand">
+                <Picker.Items>
+                    <x:String>mięsne</x:String>
+                    <x:String>kapusta</x:String>
+                    <x:String>gęsina</x:String>
+                    <x:String>ruskie</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

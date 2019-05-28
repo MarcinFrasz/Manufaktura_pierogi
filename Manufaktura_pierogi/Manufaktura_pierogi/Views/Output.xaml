@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Manufaktura_pierogi.Views.Output"
+             Title="Output page"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+           
+
+            <Button Text="Navigate to Output page" Clicked="OnBtn_Clicked" BackgroundColor="Green"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

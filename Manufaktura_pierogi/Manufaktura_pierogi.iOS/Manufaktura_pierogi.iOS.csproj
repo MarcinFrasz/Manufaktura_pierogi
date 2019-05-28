@@ -157,4 +157,7 @@
       <Name>Manufaktura_pierogi</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogInIcon.png" />
+  </ItemGroup>
 </Project>

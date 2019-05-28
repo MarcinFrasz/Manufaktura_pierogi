@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Manufaktura_pierogi.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,8 @@ namespace Manufaktura_pierogi
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+
+            MainPage = new NavigationPage(new Manufaktura_pierogi.Views.LoginPage());
         }
 
         protected override void OnStart()
